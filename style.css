@@ -1,0 +1,81 @@
+/* common */
+main {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://pakutaso.cdn.rabify.me/shared/img/thumb/PKbokeIMGP05021679.jpg.webp?d=1420");
+    background-size: cover;
+}
+form {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 64px;
+}
+input {
+  margin-bottom: 8px;
+}
+textarea {
+  height: 80px;
+  margin-bottom: 8px;
+}
+
+/* title logo (container)*/
+.container {
+  text-align: center;
+}
+.container h1 {
+  padding-top: 16px;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+.container img {
+  padding-top: 8px;
+}
+.container p {
+  padding-top: 8px;
+}
+.container a {
+  margin-top: 32px;
+  color: rgb(219, 90, 90);
+}
+
+/* main menu (menu) */
+.menu, .menu-2 {
+  text-align: center;
+}
+h2 {
+  margin-bottom: 24px;
+  font-weight: normal;
+  text-align: center;
+}
+a {
+  display: block;
+}
+a:hover {
+  opacity: .4;
+}
+.contact {
+  text-align: center;
+  margin-top: 44px;
+}
+
+/* copyright */
+small p {
+  margin-top: 64px;
+  background-color: #fff;
+  line-height: 32px;
+  text-align: center;
+}
+
+/* large screen */
+@media  screen and (min-width: 600px) {
+  .menu, .menu-2 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .item {
+    width: 50%;
+    margin-bottom: 24px;
+  }
+
+}

@@ -1,0 +1,42 @@
+h1, h2 {
+  font-weight: normal;
+  text-align: center;
+}
+h2 {
+  border-bottom: 1px solid pink;
+}
+h3 {
+  font-weight: normal;
+  padding-top: 8px;
+  margin-bottom: 8px;
+}
+.item {
+  margin-top: 16px;
+  text-align: center;
+  outline: 1px solid red;
+  background-color: aquamarine;
+}
+.nav {
+  margin-top: 8px;
+}
+a {
+  display: inline-block;
+  margin-top: 64px;
+}
+a:hover {
+  opacity: .4;
+}
+/* large screen */
+@media screen and (min-width: 600px) {
+  .container {
+    gap: 32px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .item {
+    margin-bottom: 16px;
+  }
+  a {
+    margin-left: 32px;
+  }
+}
