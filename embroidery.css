@@ -13,7 +13,6 @@ h3 {
 .item {
   margin-top: 16px;
   text-align: center;
-  outline: 1px solid red;
   background-color: aquamarine;
 }
 .nav {
@@ -22,6 +21,7 @@ h3 {
 a {
   display: inline-block;
   margin-top: 64px;
+  padding-bottom: 16px;
 }
 a:hover {
   opacity: .4;
@@ -35,6 +35,8 @@ a:hover {
   }
   .item {
     margin-bottom: 16px;
+    background-color: #fff;
+    outline: 1px solid black;
   }
   a {
     margin-left: 32px;
